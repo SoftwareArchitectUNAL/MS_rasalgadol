@@ -99,7 +99,7 @@ func fulldata() {
 	zonas := [34]string{"Venecia", "Cedritos", "Santa Barbara", "Lijaca", "La Macarena", "El libertador", "Carvajal", "Madelena", "Marly",
 		"Modelia", "La Jimenez", "Galerias", "La castellana", "Polo club", "San Antonio", "Carbonel", "Casa linda", "Meissen",
 		"Lucero alto", "La Belleza", "Hayuelos", "El Dorado", "Ricauete", "Santa Isabel", "Salitre", "Sierra Morena",
-		"Ciudad Bolivar", "Tunal", "Fatima", "Marsella", "Banderas", "Patio Bonito", "Aures", "Lisboa", "zona-T"}
+		"Ciudad Bolivar", "Tunal", "Fatima", "Marsella", "Banderas", "Patio Bonito", "Aures", "Lisboa"}
 	collection := db.C(COLLECTION)
 	for j := 0; j <= 15; j++ {
 		livingcost.ID = bson.NewObjectId()
