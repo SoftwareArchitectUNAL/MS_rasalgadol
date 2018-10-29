@@ -93,12 +93,12 @@ func (m *LivingcostsDAO) Update(Livingcost Livingcost) error {
 
 func fulldata() {
 	local := [20]string{"Bosa", "Kennedy", "Usaquen", "Chapinero", "Santa Fe", "San Cristobal", "Usme", "Tunjuelito", "Fontibon", "Engativa", "Suba",
-		"Barrios Unidos", "Teusaquillo", "Los Marires", "Antonio Nariño", "Sumapaz", "Ciudad Bolivar", "Rafael Uribe Uribe", "La candelaria",
+		"Barrios Unidos", "Teusaquillo", "Los Martires", "Antonio Nariño", "Sumapaz", "Ciudad Bolivar", "Rafael Uribe Uribe", "La Candelaria",
 		"Puente Aranda"}
 
 	zonas := [34]string{"Venecia", "Cedritos", "Santa Barbara", "Lijaca", "La Macarena", "El libertador", "Carvajal", "Madelena", "Marly",
 		"Modelia", "La Jimenez", "Galerias", "La castellana", "Polo club", "San Antonio", "Carbonel", "Casa linda", "Meissen",
-		"Lucero alto", "La Belleza", "Hayuelos", "El Dorado", "Ricauete", "Santa Isabel", "Salitre", "Sierra Morena",
+		"Lucero alto", "La Belleza", "Hayuelos", "El Dorado", "Ricaurte", "Santa Isabel", "Salitre", "Sierra Morena",
 		"Ciudad Bolivar", "Tunal", "Fatima", "Marsella", "Banderas", "Patio Bonito", "Aures", "Lisboa"}
 	collection := db.C(COLLECTION)
 	for j := 0; j <= 15; j++ {
