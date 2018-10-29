@@ -101,7 +101,7 @@ func fulldata() {
 		"Lucero alto", "La Belleza", "Hayuelos", "El Dorado", "Ricaurte", "Santa Isabel", "Salitre", "Sierra Morena",
 		"Ciudad Bolivar", "Tunal", "Fatima", "Marsella", "Banderas", "Patio Bonito", "Aures", "Lisboa"}
 	collection := db.C(COLLECTION)
-	for j := 0; j <= 15; j++ {
+	for j := 0; j <= 45; j++ {
 		livingcost.ID = bson.NewObjectId()
 		livingcost.Zone = zonas[rand.Intn(34)]
 		livingcost.Stratification = rand.Intn(7)
